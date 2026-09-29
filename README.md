@@ -1,38 +1,28 @@
-# CI/CD Tools and Practices Final Project Template
+# ci-cd-final-project
 
-This repository contains the template to be used for the Final Project for the Coursera course **CI/CD Tools and Practices**.
+## Project Name
 
-## Usage
+ci-cd-final-project
 
-This repository is to be used as a template to create your own repository in your own GitHub account. No need to Fork it as it has been set up as a Template. This will avoid confusion when making Pull Requests in the future.
+## Description
 
-From the GitHub **Code** page, press the green **Use this template** button to create your own repository from this template.
+This project demonstrates a complete CI/CD workflow using GitHub Actions and OpenShift Pipelines.
 
-Name your repo: `ci-cd-final-project`.
+The project includes:
+- GitHub Actions for continuous integration
+- ESLint for code quality checking
+- Jest for unit testing
+- Tekton/OpenShift Pipelines for CI/CD automation
+- Buildah for container image building
+- OpenShift for application deployment
 
-## Setup
+## CI/CD Pipeline
 
-After entering the lab environment you will need to run the `setup.sh` script in the `./bin` folder to install the prerequisite software.
+The pipeline performs the following steps:
 
-```bash
-bash bin/setup.sh
-```
-
-Then you must exit the shell and start a new one for the Python virtual environment to be activated.
-
-```bash
-exit
-```
-
-## Tasks
-
-
-## License
-
-Licensed under the Apache License. See [LICENSE](/LICENSE)
-
-## Author
-
-Skills Network
-
-## <h3 align="center"> © IBM Corporation 2023. All rights reserved. <h3/>
+1. Cleanup
+2. Git Clone
+3. Lint with ESLint
+4. Run unit tests with Jest
+5. Build container image using Buildah
+6. Deploy application using OpenShift
