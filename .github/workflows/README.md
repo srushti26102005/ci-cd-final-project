@@ -1,3 +1,8 @@
-# CI/CD Tools and Practices Final Project GitHub Action Workflows
+# CI/CD Tools and Practices Final Project
 
-This directory will contain all the GitHub Action workflows you create in the CI/CD Tools and Practices Final Project.
+## Project Name
+
+ci-cd-final-project
+
+This project demonstrates Continuous Integration and Continuous Delivery
+using GitHub Actions and OpenShift Pipelines.
